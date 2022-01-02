@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Exo+2:ital,wght@1,900&family=Monofett&family=Raleway:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Exo+2:ital,wght@1,900&family=Monofett&family=Raleway:ital,wght@0,900;1,800&display=swap');
+body{
+    background: url("background.jpg");
+}
+#status
+{
+    padding-top: 7px;
+    margin-top: -10px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Monofett', cursive;
+    font-family: 'Raleway', sans-serif;
+    background-color: #D64045;
+    font-size: 30px;
+    color: #F5F5F5;
+    width: 100%;
+    height: 50px;
+
+}
+#status2{
+    padding-top: 7px;
+    margin-top: -10px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Monofett', cursive;
+    font-family: 'Raleway', sans-serif;
+    background-color: #D64045;
+    font-size: 30px;
+    color: #F5F5F5;
+    width: 100%;
+    height: 50px;
+}
+#h1{
+    color: #FCB9B2;
+    margin-top: 0px;
+    background-color: #0A2E36;
+    padding-top: 60px;
+    width: 100%;
+    text-shadow: 3px 3px #738D7B; 
+    height: 200px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Monofett', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    display: inline-block;
+}
+canvas{
+    border-width: 5px;
+    border-color: white;
+    box-shadow: 10px 10px 30px grey;
+    border-radius: 5px;
+}
+#note{
+    margin-top: -10px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Monofett', cursive;
+    font-family: 'Raleway', sans-serif;
+    background-color: #D64045;
+    font-size: 27px;
+    color: #F5F5F5;
+    width: 100%;
+    padding-top: 7px;
+    height: 50px;
+}
+#start{
+    background-color: #F46036;
+    text-shadow: 2px 2px#3AB795;
+    color: #EF2D56;
+    margin-top: -10px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Monofett', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    width: 20em;
+    height: 50px;
+    border: none;
+}
+#start:hover{
+    animation-name: button;
+    animation-duration: 2s;
+}
+@keyframes button{
+    0%{
+        text-shadow: 2px 2px #3AB795;
+        font-size: 35px;
+    }
+    25%{
+        text-shadow: 4px 2px #3AB795; 
+        font-size: 30px;
+    }
+    50%{
+        text-shadow: 6px 2px #3AB795;
+        font-size: 40px;
+    }
+    100%{
+        text-shadow: 2px 2px #3AB795;
+        font-size: 35px;
+    }
+}
+#input{
+    color: #EF2D56;
+    font-family: 'Cinzel', serif;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Monofett', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    margin-top: -10px;
+    height: 50px;
+    border: none;
+    width: 20em;
+}
+div{
+    display: inline-block;
+}
